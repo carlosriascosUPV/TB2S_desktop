@@ -14,15 +14,15 @@ The application supports preliminary assessment and parametric studies by identi
 
 ## Main features
 
-- Automatic or manual input of bridge parameters.
-- PT60 and HSLM-A train models, with options to define custom trains.
-- Displacement and acceleration response envelopes.
-- Accumulated response envelopes for increasing train speed.
-- Separate results for the first mode, second mode, and combined response.
-- Two-dimensional and three-dimensional response maps over bridge length and train speed.
-- Selection of a bridge length to inspect its response curves.
-- Bottom Limit thresholds for filtering the displayed results.
-- Save and open analysis configurations, and export results to Excel or HTML.
+* Automatic or manual input of bridge parameters.
+* PT60 and HSLM-A train models, with options to define custom trains.
+* Displacement and acceleration response envelopes.
+* Accumulated response envelopes for increasing train speed.
+* Separate results for the first mode, second mode, and combined response.
+* Two-dimensional and three-dimensional response maps over bridge length and train speed.
+* Selection of a bridge length to inspect its response curves.
+* Bottom Limit thresholds for filtering the displayed results.
+* Save and open analysis configurations, and export results to Excel or HTML.
 
 ## Download
 
@@ -34,9 +34,9 @@ Choose the application ZIP uploaded by the authors. GitHub's automatically gener
 
 ## System requirements
 
-- Windows compatible with the supplied executable and its MATLAB Runtime release.
-- The **MATLAB Runtime release that matches the MATLAB release used to compile the application**, at the same update level or newer within that release.
-- Internet access during installation if the installer downloads MATLAB Runtime.
+* Windows compatible with the supplied executable and its MATLAB Runtime release.
+* The **MATLAB Runtime release that matches the MATLAB release used to compile the application**, at the same update level or newer within that release.
+* Internet access during installation if the installer downloads MATLAB Runtime.
 
 **A paid MATLAB licence is not required to run the compiled application.** MATLAB Runtime is freely available from MathWorks.
 
@@ -51,7 +51,7 @@ Use the instructions that match the package downloaded from the release.
 ### Package with an installer
 
 1. Extract the complete ZIP.
-2. Run the supplied installer, whose filename may include `Installer` or `_web`.
+2. Run the supplied installer, whose filename may include `Installer` or `\_web`.
 3. Follow the installation wizard. If the installer offers to install or download MATLAB Runtime, allow it to complete this step.
 4. If the installer does not include Runtime installation, install the matching Runtime separately using the requirement in `readme.txt`.
 5. Launch TB2S from the shortcut created by the installer or from the installation folder.
@@ -80,7 +80,7 @@ Check the units displayed beside each input. When changing analysis inputs, run 
 
 The present formulation considers symmetric, prismatic continuous beam bridges with two equal spans under prescribed moving loads. It represents the response using the first two vertical bending modes.
 
-Use the results within these assumptions. TB2S provides a simplified screening model; detailed assessment may require additional modes, a refined bridge model, or time-domain analysis. The accuracy of modal combination depends on the train–bridge configuration. The conference study discusses limitations for dimensionless speed K above 0.25 and span length L below 25 m.
+Use the results within these assumptions. TB2S provides a simplified screening model; detailed assessment may require additional modes, a refined bridge model, or time-domain analysis. The accuracy of modal combination depends on the train–bridge configuration.
 
 ## How to cite
 
@@ -88,7 +88,7 @@ If you use TB2S in research, teaching materials, reports, or presentations, plea
 
 ### Software
 
-> Riascos, C., Cueva, W., & Museros, P. (2026). *TB2S: Train–Bridge–2 Spans* [Computer software]. Universitat Politècnica de València. https://github.com/carlosriascosUPV/TB2S_desktop
+> Riascos, C., Cueva, W., \& Museros, P. (2026). \*TB2S: Train–Bridge–2 Spans\* \[Computer software]. Universitat Politècnica de València. https://github.com/carlosriascosUPV/TB2S\_desktop
 
 For reproducibility, also state the **release tag or version used** and link to that specific release.
 
@@ -97,14 +97,14 @@ For reproducibility, also state the **release tag or version used** and link to 
   author       = {Riascos, Carlos and Cueva, Willan and Museros, Pedro},
   title        = {{TB2S}: Train--Bridge--2 Spans},
   year         = {2026},
-  howpublished = {Computer software, Universitat Polit\`ecnica de Val\`encia},
-  url          = {https://github.com/carlosriascosUPV/TB2S_desktop}
+  howpublished = {Computer software, Universitat Polit\\`ecnica de Val\\`encia},
+  url          = {https://github.com/carlosriascosUPV/TB2S\_desktop}
 }
 ```
 
 ### Methodological contribution
 
-> Riascos, C., Cueva, W., & Museros, P. (2026). *Screening analysis of continuous beams under moving loads by residual influence line methods: A MATLAB toolbox implementation*. Conference contribution, EURODYN 2026, Hannover, Germany.
+> Riascos, C., Cueva, W., \& Museros, P. (2026). \*Screening analysis of continuous beams under moving loads by residual influence line methods: A MATLAB toolbox implementation\*. Conference contribution, EURODYN 2026, Hannover, Germany.
 
 ## Authors and contact
 
@@ -117,12 +117,12 @@ When reporting a problem, include the TB2S release, Windows version, MATLAB Runt
 
 ## Troubleshooting
 
-| Problem | What to check |
-| --- | --- |
-| MATLAB Runtime is missing or incompatible | Install the release specified in the MATLAB-generated `readme.txt`, at the required update level or newer within that release. |
-| A `.mat` file, image, or other resource cannot be found | Extract the complete ZIP and preserve all support folders. If the error remains, report it to the authors so the application package can be corrected. |
-| Results do not reflect modified inputs | Check whether the application requests recalculation and run the analysis again. |
-| An export cannot be saved | Choose a folder where your Windows account has write permission. |
+|Problem|What to check|
+|-|-|
+|MATLAB Runtime is missing or incompatible|Install the release specified in the MATLAB-generated `readme.txt`, at the required update level or newer within that release.|
+|A `.mat` file, image, or other resource cannot be found|Extract the complete ZIP and preserve all support folders. If the error remains, report it to the authors so the application package can be corrected.|
+|Results do not reflect modified inputs|Check whether the application requests recalculation and run the analysis again.|
+|An export cannot be saved|Choose a folder where your Windows account has write permission.|
 
 ## Acknowledgements
 
@@ -133,3 +133,4 @@ Views and opinions expressed are those of the authors only and do not necessaril
 ## Installation reference
 
 [MathWorks documentation on MATLAB Runtime compatibility](https://www.mathworks.com/help/compiler/about-the-matlab-runtime.html)
+
